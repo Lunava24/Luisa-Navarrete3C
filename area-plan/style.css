@@ -1,0 +1,49 @@
+.spaces {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-rigth:10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+}
+
+.picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
