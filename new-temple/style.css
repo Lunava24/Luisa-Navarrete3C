@@ -1,0 +1,55 @@
+/* Universal Selector */
+*{
+    color: #282828;
+    font-family: sans-serif;
+}
+
+/* Element Selector */
+h1 {
+    text-transform: uppercase;
+    color: saddlebrown;
+}
+
+/* ID Selector */
+#status {
+    color: saddlebrown;
+}
+
+img {
+    width:500px;
+}
+
+/* Class Selector */
+.standout-box {
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.subtitle {
+    text-transform: uppercase;
+    color: saddlebrown;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Group Selector */
+h1, .subtitle {
+    font-family: serif;
+}
+
+/*  Pseudo Class Selectors */
+a {
+    text-decoration: none;
+    color: rgb(163, 157, 111);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: green;
+}
+
+main {
+    width: 600px;
+    margin: auto;
+}
