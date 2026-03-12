@@ -53,3 +53,8 @@ main {
     width: 600px;
     margin: auto;
 }
+
+figcaption {
+    text-align: center;
+    color: gray;
+}
