@@ -16,6 +16,17 @@
     color: #333;
 
 }
+
+.left {
+    display: flex;
+    justify-content: left;
+    flex-wrap: nowrap;
+}
+
+.left a {
+    text-decoration: none;
+    color: #333;
+}
 .center {
     display: flex;
     justify-content: center;
