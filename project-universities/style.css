@@ -1,0 +1,17 @@
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 1em;
+    background-color: purple;
+}
+.wrap a {
+    text-decoration: none;
+    color: white;
+}
+.hero-section {
+    height: 100vh;
+    background-image: url("https://thumbs.dreamstime.com/b/brainstorming-group-people-working-concept-71662472.jpg");
+    background-size: cover;
+}
