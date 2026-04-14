@@ -1,17 +1,34 @@
-.wrap {
+.rigth-size {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: right;
+    align-items: right;
     flex-wrap: nowrap;
-    gap: 1em;
+    gap: 3em;
     background-color: purple;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
-.wrap a {
+.rigth-size a {
     text-decoration: none;
     color: white;
 }
 .hero-section {
     height: 100vh;
-    background-image: url("https://thumbs.dreamstime.com/b/brainstorming-group-people-working-concept-71662472.jpg");
+    background-image: url("https://images.stockcake.com/public/9/7/f/97faad38-3199-4bf1-bc27-bfcf841b3158_large/study-group-session-stockcake.jpg");
     background-size: cover;
+}
+.hero-section h2 {
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    padding: 450px;
+    font-size: 50px;
+    margin: 0;
+}
+body {
+    margin: 0;
 }
