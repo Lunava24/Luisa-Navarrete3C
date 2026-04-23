@@ -1,0 +1,14 @@
+header {
+    background-color: #B3EBF2;
+    margin: 0;
+}
+
+.middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    margin: 0;
+}
