@@ -1,6 +1,9 @@
 header {
     background-color: #B3EBF2;
     margin: 0;
+    padding: 55px;
+    font-size: 70px;
+    font-weight: 40px;
 }
 
 .middle {
@@ -12,3 +15,4 @@ header {
 body {
     margin: 0;
 }
+

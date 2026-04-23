@@ -1,5 +1,1 @@
-function showDate() {
-    let currentDate = new Date();
-    let heading = document.querySelector("h1");
-    heading.inner = message;
-}
+ let i = 0;function clicks() {document.querySelector("h1").innerHTML = ++i;}
