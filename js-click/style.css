@@ -15,4 +15,6 @@ header {
 body {
     margin: 0;
 }
-
+a {
+    font-family: Lato;
+}
