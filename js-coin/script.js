@@ -6,11 +6,11 @@
 //  console.log("nice number");
 
 function clicks() {
-    let coin = Math.floor(Math.random() * 2)
-    let result = document.querySelector("flips");
+    let coin = Math.floor(Math.random() * 2);
+    let result = document.getElementById("flips");
 
     if (coin === 0) {
-        result.innerText = "Heads";
+        result.innerText = 'Heads';
     } else {
         result.innerText = "Tails";
     }

@@ -1,0 +1,38 @@
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+}
+
+.test {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto Mono;
+    font-size: 40px;
+    color: gray;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-decoration: none;
+    padding: 150px;
+    margin: 4px 2px;
+    text-align: center;
+    font-family: Lotus;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: pink;
+    color: #26F7FD;
+}
+
+.button {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
