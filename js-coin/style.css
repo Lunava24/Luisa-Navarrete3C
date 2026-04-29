@@ -11,7 +11,7 @@ h1 {
     justify-content: center;
     font-family: Roboto Mono;
     font-size: 40px;
-    color: gray;
+    color: yellow;
 }
 
 button {
@@ -28,6 +28,8 @@ button {
     font-size: 30px;
     background-color: pink;
     color: #26F7FD;
+    border: 3px solid red;
+
 }
 
 .button {
@@ -35,4 +37,8 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+body {
+    background-color: black;
 }
