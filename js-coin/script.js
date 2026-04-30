@@ -5,36 +5,42 @@
 // }
 //  console.log("nice number");
 let userSelection = null;
+let computerSelection = null;
 
 function tail() {
-    userSelection = "Tails";
+    userSelection = "tails";
 }
 
-function head() {
-    userSelection = "Head";
+function Head() {
+    userSelection = "head";
 }
 
 function clicks() {
+
+    if (!userSelection) {
+        alert("test")
+        exit()
+    }
+
     let coin = Math.floor(Math.random() * 2);
     let result = document.getElementById("flips");
 
-    if (coin === 0) {
-        result.innerText = 'Heads'; if (userSelection === "Head") {
+    console.log(coin);
+
+    if (coin === 1) { computerSelection = "head"}
+    if (coin === 0) { computerSelection = "tails"}
+
+    console.log(computerSelection);
+
+    if (userSelection === computerSelection) {
             alert("You won :DDDDDDDDDDD");
             userSelection = null;
         }   else {
             alert("You lost ;v")
             userSelection = null;
-        }
 
-    } else {
-        result.innerText = "Tails"; if (userSelection === "Tails") {
-            alert("You won");
-            userSelection = null;
-        }   else {
-            alert("You lost ;v")
-            userSelection = null;
         }
+            result.innerText = computerSelection
+            userSelection = null;
     }
-}
 

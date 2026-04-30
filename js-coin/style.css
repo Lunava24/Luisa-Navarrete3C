@@ -42,3 +42,9 @@ button {
 body {
     background-color: black;
 }
+
+.buttons {
+    display:flex;
+    items-align: left;
+    justify-content: space-around;
+}
