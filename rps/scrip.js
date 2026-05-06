@@ -73,7 +73,7 @@ function game(userChoice) {
         }
 }
 
-// document.addEventListener('DOMContentLoaded', function(){
-//     document.querySelector("#rock-button").onclick = game("Rock");
-// });
+document.addEventListener('DOMContentLoaded', function(){
+     document.querySelector("#rock-button").onclick = game("Rock");
+ });
 
