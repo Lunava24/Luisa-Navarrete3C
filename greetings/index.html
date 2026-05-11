@@ -1,15 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>
-            Greeting
-        </title>
-        <script scr="script.js"></script>
-    </head>
-    <body>
-        <form>
-            <input type="text" placeholder="Type your name" autofocus id="Name">
-            <input type="submit">
-        </form>
-    </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Greetings date</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="card">
+
+    <h2>Welcome to date generator</h2>
+
+    <form id="greetForm">
+      <input type="text" id="nameInput" placeholder="Type your name..." required>
+      <button type="submit">Submit</button>
+    </form>
+
+    <div class="output" id="outputBox">
+      <h1 id="message"></h1>
+      <h3 id="today"></h3>
+      <p id="status"></p>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
 </html>
